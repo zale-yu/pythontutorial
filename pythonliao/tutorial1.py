@@ -90,3 +90,75 @@ print('hello',name)
 # p = ['asp','php']
 # s = ['python','java', p,'scheme']       #要拿到'php'可以写成p[1]或者s[2][1]  s可以看成是一个二维数组，类似的还有三维、四维……数组
 
+#tuple
+
+classmates = ('Michael','Bob','tracy')              # 一个tuple   a = ()   #空元组   b = (1)   #数字   c = [2]   #列表   d = (3,)   #元组  e = (4,5,6)#元组
+
+
+
+# 条件判断
+# if 语句
+# age = 20
+# if age >= 18:
+#     print('your age is',age)
+#     print('adult')
+# else:
+#     print('your age is',age)
+#     print('teenager')
+
+# elif
+# age = 3
+# if age >= 18:
+#     print('adult')
+# elif age >=6 :
+#     print('teenager')
+# else:
+#     print('kid')
+
+
+# input
+#
+# birth = input('birth:')
+# if birth < 2000:
+#     print('00前')
+# else:
+#     print('00后')
+# # 由于input 输入为str 类型 所以要转换成整数类型来比较，
+# s = input('birth:')
+# birth = int(s)
+# if birth <2000:
+#     print('00前')
+# else:
+#     print('00后')
+#
+
+
+
+# 循环
+#for 循环
+# names = ['Michael','bob','tracy']
+# for name in names:
+#     print(name)
+
+# sum = 0
+# for x in [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]:
+#     sum = sum + x
+# print(sum)
+
+list (range(5))
+
+sum = 0
+for x in range (101):
+    sum = sum +x
+print(sum)
+
+#while 循环
+
+sum = 0
+n = 99
+while n >0 :
+    sum= sum +n
+    n = n-2
+print(sum)
+
+
